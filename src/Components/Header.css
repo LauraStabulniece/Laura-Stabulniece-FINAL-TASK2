@@ -1,0 +1,17 @@
+#navbarHeader {
+    background-color: rgba(46, 13, 83, 0.747) !important;
+}
+
+.textColor {
+    color: rgb(3, 41, 31);
+}
+
+.navbar {
+    background-color: rgba(97, 126, 122, 0.466) !important;
+  }
+
+  .nav-link {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: x-large;
+    
+  }
