@@ -1,9 +1,9 @@
-import Carousel from "../Components/Carousel"
+import PortfolioContent from "../Components/PortfolioContent"
 
 function Portfolio() {
     return (
         <div>
-<Carousel />
+            <PortfolioContent />
         </div>
     )
 }

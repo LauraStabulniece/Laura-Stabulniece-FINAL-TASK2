@@ -1,8 +1,8 @@
-// function Chat() {
-//     return (
-//         <div>
+function Chat() {
+    return (
+        <div>
 
-//         </div>
-//     )
-// }
-// export default Chat
+        </div>
+    )
+}
+export default Chat

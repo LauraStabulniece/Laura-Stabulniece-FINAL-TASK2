@@ -26,7 +26,7 @@ function Landing() {
                                     <p className="mb-1 text-muted" style={{ fontSize: "14px", textAlign: "right" }}>Salvador Dali</p>
                                 </div>
                             </div>
-                            <img src="/images/landing1.png" className="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap" />
+                            <img src="/images/landing1.png" className="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="logo"/>
                         </div>
                     </div>
                     <div className="col-md-6">
