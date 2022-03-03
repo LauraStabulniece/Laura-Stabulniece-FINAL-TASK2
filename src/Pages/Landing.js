@@ -8,7 +8,7 @@ function Landing() {
                     <div className="col-md-6 px-0">
                         <h1 className="display-4 font-italic">“ I don't paint dreams or nightmares, I paint my own reality. ”</h1>
                         <h3 className="my-3">~ Frida Kahlo</h3>
-                        <p className="lead my-3">KEIT: "It is a wonderful quote. Well, and it's all about me too." ~</p>
+                        <p className="lead my-3">KEIT: "It is a wonderful quote. Well, and it's all about me, too." ~</p>
                         <p className="lead mb-0"><Link to="/portfolio" className="text-white font-weight-bold">Take a look</Link></p>
                     </div>
                 </div>
@@ -22,11 +22,11 @@ function Landing() {
                                     <h3 className="text-dark text-decoration-underline">MY Drawings</h3>
                                 </div>
                                 <div>
-                                    <p className="card-text mb-auto">“ It is not important for the public to know whether I am joking or whether I am serious, just as it is not necessary for me to know it myself. ”</p>
+                                    <p className="card-text mb-auto" style={{textAlign: "left"}}>“ It is not important for the public to know whether I am joking or whether I am serious, just as it is not necessary for me to know it myself. ”</p>
                                     <p className="mb-1 text-muted" style={{ fontSize: "14px", textAlign: "right" }}>Salvador Dali</p>
                                 </div>
                             </div>
-                            <img src="/images/landing1.png" className="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="logo"/>
+                            <img src="/images/landing.png" className="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="logo"/>
                         </div>
                     </div>
                     <div className="col-md-6">

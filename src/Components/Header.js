@@ -12,7 +12,7 @@ function Header() {
             <div className="col-sm-8 col-md-7 py-4">
               <h2 className="text-white">Jekaterina</h2>
               <h2 className="text-white">Matvejeva</h2>
-              <img src="/images/header.png" alt="" className="img-fluid rounded-circle m-3"></img>
+              <img src="/images/header.png" alt="" className="img-fluid rounded-circle m-3"/>
               <ul className="justify-content-end list-unstyled">
                 <SocialIcons />
               </ul>
