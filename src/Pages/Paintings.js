@@ -1,8 +1,9 @@
-function Drawing() {
+function Paintings() {
     return (
         <div>
 
         </div>
     )
 }
-export default Drawing
+
+export default Paintings

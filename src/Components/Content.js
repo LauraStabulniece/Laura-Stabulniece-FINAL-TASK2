@@ -7,6 +7,7 @@ import AboutMe from "../Pages/AboutMe"
 import Drawing from "../Pages/Drawing";
 import Tattoo from "../Pages/Tattoo";
 import Painting from "../Pages/Painting";
+import Paintings from "../Pages/Paintings";
 
 
 function Content() {
@@ -16,8 +17,9 @@ function Content() {
                 <Route path="/" element={<Landing />} />
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/drawings" element={<Drawing />} />
-                <Route path="/more%20MY%20Tattoos%20art" element={<Tattoo />} />
-                <Route path="/paintings" element={<Painting />} />
+                <Route path="/tattoo" element={<Tattoo />} />
+                <Route path="/painting" element={<Painting />} />
+                <Route path="/paintings" element={<Paintings />} />
                 <Route path="/chat" element={<Chat/>} />
                 <Route path="/register" element={<Register/>} />
                 <Route path="/aboutme" element={<AboutMe/>} />

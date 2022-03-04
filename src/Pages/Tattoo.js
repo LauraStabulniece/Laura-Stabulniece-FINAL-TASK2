@@ -1,8 +1,8 @@
 function Tattoo() {
     return (
-        <div>
-
-        </div>
+   <div>
+   
+   </div>
     )
 }
 export default Tattoo

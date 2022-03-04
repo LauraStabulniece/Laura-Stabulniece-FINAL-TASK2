@@ -4,7 +4,7 @@ function Landing() {
     return (
         <div>
             <div className="container">
-                <div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+                <div className="jumbotron p-3 p-md-5 text-white bg-dark">
                     <div className="col-md-6 px-0">
                         <h1 className="display-4 font-italic">“ I don't paint dreams or nightmares, I paint my own reality. ”</h1>
                         <h3 className="my-3">~ Frida Kahlo</h3>
@@ -14,9 +14,9 @@ function Landing() {
                 </div>
                 <div className="row mb-2">
                     <div className="col-md-6">
-                        <div className="card flex-md-row mb-4 box-shadow h-md-250">
-                            <div className="card-body d-flex flex-column align-items-start">
-                                <strong className="d-inline-block mb-2" style={{ color: "purple" }}>portfolio</strong>
+                        <div className="card flex-md-row mb-4 h-md-250">
+                            <div className="card-body d-flex flex-column align-items-start" id="borders">
+                                <strong className="d-inline-block mb-2" style={{ color: "purple"}}>portfolio</strong>
                                 <div className="mb-0">
                                     <Link className="link-success" to="/portfolio">check out</Link>
                                     <h3 className="text-dark text-decoration-underline">MY Drawings</h3>
@@ -30,7 +30,7 @@ function Landing() {
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <div className="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div className="card flex-md-row mb-4 h-md-250">
                             <div className="card-body d-flex flex-column align-items-start">
                                 <strong className="d-inline-block mb-2" style={{ color: "purple" }}>portfolio</strong>
                                 <div className="mb-0">
@@ -44,7 +44,7 @@ function Landing() {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div className="card flex-md-row mb-4 box-shadow h-md-250">
+                            <div className="card flex-md-row mb-4 h-md-250">
                                 <div className="card-body d-flex flex-column align-items-start">
                                     <strong className="d-inline-block mb-2" style={{ color: "purple" }}>portfolio</strong>
                                     <div className="mb-0">
