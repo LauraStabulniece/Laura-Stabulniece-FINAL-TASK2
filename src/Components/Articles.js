@@ -31,7 +31,7 @@ function Articles() {
                 </div>
             </div>
             <div className="col-8">
-                <p style={{backgroundColor: "white", fontSize: "40px", marginTop: "75px", textAlign: "justify"}} >“ Don't think about making art, just get it done. Let everyone else decide if it's good or bad, whether they love it or hate it. While they are deciding, make even more art. ”</p>
+                <p style={{backgroundColor: "white", fontSize: "36px", marginTop: "75px", textAlign: "justify", padding: "15px"}} >“ Don't think about making art, just get it done. Let everyone else decide if it's good or bad, whether they love it or hate it. While they are deciding, make even more art. ”</p>
                 <p className="text-muted" style={{ fontSize: "25px", textAlign: "center", backgroundColor: "white" }}>-Andy Warhol</p>
                 <Link to="/" />
             </div>

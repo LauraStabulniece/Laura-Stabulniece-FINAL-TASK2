@@ -35,7 +35,7 @@ function CarouselTattoo() {
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="14"
                             aria-label="Slide 15"></button>
                     </div>
-                    <div className="carousel-inner">
+                    <div className="carousel-inner rounded-3">
                         <div className="carousel-item active">
                             <img src="/images/carouselTattoo/1.png" className="d-block w-100" />
                         </div>
