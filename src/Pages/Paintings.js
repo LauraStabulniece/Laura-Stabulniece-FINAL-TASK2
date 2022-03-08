@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom"
+import FancyBoxDifferent from "../Components/FancyBoxDifferent"
 import FancyBoxFlower from "../Components/FancyBoxFlower"
+import FancyBoxPortraits from "../Components/FancyBoxPortraits"
 
 function Paintings() {
     return (
@@ -19,23 +21,24 @@ function Paintings() {
                         </nav>
                     </div>
                 </div>
-                <div className="row align-items-md-stretch">
-                    <div className="col-md-6">
-                        <FancyBoxFlower />
-                    </div>
-                    <div className="col-md-6">
-                        3r23r23r
-                    </div>
-                </div>
-                <div className="row align-items-md-stretch">
-                    <div className="col-md-6">
-                        23432424234
-                    </div>
-                    <div className="col-md-6">
-                        3r23r23r
-                    </div>
-                </div>
+                <div className="row align-items-md-stretch" style={{backgroundColor: "black", marginBottom: "100px", padding: "20px"}}>
+                    <div className="col-md-4">
+                            <FancyBoxFlower />
+                            <p style={{ marginTop: "170px", padding: "10px", textAlign: "center"}}><strong style={{color: "white", fontSize: "100px"}}>ART NEVER SLEEPS</strong></p>
+                        
 
+                    </div>
+                    <div className="col-md-4">
+                            <FancyBoxDifferent />
+                        <p style={{ backgroundColor: "white", marginTop: "100px", padding: "10px", textAlign: "center"}}><strong style={{fontSize: "60px"}}>art is about paying attention</strong>
+                        <p className="text-muted mb-1">-Laurie Anderson</p>
+
+                        </p>
+                    </div>
+                    <div className="col-md-4">
+                            <FancyBoxPortraits />
+                    </div>
+                </div>
             </div>
         </div>
     )

@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom"
-import Carousel from "../Components/Carousel"
+import CarouselPortfolio from "../Components/CarouselPortfolio"
 import Categories from "../Components/Categories"
 
 function Portfolio() {
     return (
         <div>
-            <div className="position-relative overflow-hidden p-3 p-md-1 m-md-1 bg-light">
+            <div container>
                 <div className="row">
                     <div className="col-sm-12 my-3">
                         <nav aria-label="breadcrumb">
@@ -18,14 +18,21 @@ function Portfolio() {
                         </nav>
                     </div>
                 </div>
-                <div className="col-md-5 p-lg-5 mx-auto my-1">
-                    <Carousel />
+                <div className="row bg-light position-relative overflow-hidden">
+                    <div className="col-md-5 p-lg-5 mx-auto my-1">
+                        <CarouselPortfolio />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <div style={{marginBottom: "100px" }}>
+                            <Categories />
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div style={{ marginBottom: "100px" }}>
-                <Categories />
-            </div>
         </div>
+
     )
 }
 export default Portfolio
