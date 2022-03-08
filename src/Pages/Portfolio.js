@@ -18,7 +18,7 @@ function Portfolio() {
                         </nav>
                     </div>
                 </div>
-                <div className="row bg-light position-relative overflow-hidden">
+                <div className="row bg-light position-relative overflow-hidden m-1">
                     <div className="col-md-5 p-lg-5 mx-auto my-1">
                         <CarouselPortfolio />
                     </div>

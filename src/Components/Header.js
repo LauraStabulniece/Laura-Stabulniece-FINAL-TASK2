@@ -10,29 +10,41 @@ function Header() {
         <div className="container">
           <div className="row">
             <div className="col-sm-8 col-md-7 py-4">
-              <h2 className="text-white">Jekaterina</h2>
-              <h2 className="text-white">Matvejeva</h2>
-              <img src="/images/header.png" alt="" className="img-fluid rounded-circle m-3"/>
-              <ul className="justify-content-end list-unstyled">
+              <p className="text-white" style={{ fontSize: "30px" }}>J e k a t e r i n a</p>
+              <p className="text-white" style={{ fontSize: "45px" }}>Matvejeva</p>
+              <img src="/images/header.png" alt="logo" className="img-fluid rounded-circle" />
+              <ul className="justify-content-end list-unstyled" style={{ marginTop: "20px" }}>
                 <SocialIcons />
               </ul>
             </div>
             <div className="col-sm-4 offset-md-1 py-4">
-              <ul className="navbar-nav list-unstyled">
+              <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link className="nav-link text-white" to="/">Home</Link>
+                  <Link className="nav-link text-white text-decoration-underline" to="/">H o m e</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link text-white" to="/portfolio">Portfolio</Link>
+                  <Link className="nav-link text-white text-decoration-underline" to="/portfolio">P o r t f o l i o</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link text-white" to="/chat">Chat</Link>
+                  <Link className="nav-link text-white" style={{ fontSize: "20px" }} to="/drawings">/d r a w i n g s</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link text-white" to="/register">Register</Link>
+                  <Link className="nav-link text-white" style={{ fontSize: "20px" }} to="/tattoos">/t a t t o o s</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link text-white" to="/aboutme">About me</Link>
+                  <Link className="nav-link text-white" style={{ fontSize: "20px" }} to="/painting">/p a i n t i n g</Link>
+                </li>
+                  <li className="nav-item">
+                    <Link className="nav-link text-white" style={{ fontSize: "20px" }} to="/paintings">/m o r e ~ p a i n t i n g s</Link>
+                  </li>
+                <li className="nav-item">
+                  <Link className="nav-link text-white text-decoration-underline" to="/chat">C h a t</Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link text-white text-decoration-underline" to="/register">R e g i s t e r</Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link text-white text-decoration-underline" to="/aboutme">A b o u t ~ m e</Link>
                 </li>
               </ul>
             </div>
@@ -41,9 +53,7 @@ function Header() {
       </div>
       <div className="navbar navbar-dark bg-warning shadow-sm">
         <div className="container">
-
           <strong><h2 className="textColor">KeiTT TaTToo</h2></strong>
-
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
             aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

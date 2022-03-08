@@ -5,7 +5,7 @@ import Chat from "../Pages/Chat"
 import Register from "../Pages/Register"
 import AboutMe from "../Pages/AboutMe"
 import Drawings from "../Pages/Drawings";
-import Tattoo from "../Pages/Tattoo";
+import Tattoos from "../Pages/Tattoos";
 import Painting from "../Pages/Painting";
 import Paintings from "../Pages/Paintings";
 
@@ -17,7 +17,7 @@ function Content() {
                 <Route path="/" element={<Landing />} />
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/drawings" element={<Drawings />} />
-                <Route path="/tattoo" element={<Tattoo />} />
+                <Route path="/tattoos" element={<Tattoos />} />
                 <Route path="/painting" element={<Painting />} />
                 <Route path="/paintings" element={<Paintings />} />
                 <Route path="/chat" element={<Chat/>} />

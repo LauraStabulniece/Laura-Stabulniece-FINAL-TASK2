@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import CarouselTattoo from "../Components/CarouselTattoo"
 import TattooArticles from "../Components/TattooArticles"
 
-function Tattoo() {
+function Tattoos() {
     return (
         <div>
             <div container>
@@ -72,4 +72,4 @@ function Tattoo() {
 
     )
 }
-export default Tattoo
+export default Tattoos

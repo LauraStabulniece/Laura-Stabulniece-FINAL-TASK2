@@ -13,12 +13,12 @@ function Landing() {
                     </div>
                 </div>
                 <div className="row mb-2">
-                    <div className="col-md-6">
+                    <div className="col-md-7">
                         <div className="card  border-0 flex-md-row mb-4 h-md-250">
                             <div className="card-body d-flex flex-column align-items-start" id="borders">
-                                <strong className="d-inline-block mb-2" style={{ color: "purple"}}>portfolio</strong>
+                                <strong className="d-inline-block mb-2" style={{ color: "purple", fontSize:"18px"}}>p o r t f o l i o</strong>
                                 <div className="mb-0">
-                                    <Link className="link-success" to="/portfolio">check out</Link>
+                                    <Link className="link-success" to="/portfolio" style={{fontSize:"20px"}}>check out</Link>
                                     <h3 className="text-dark text-decoration-underline">MY Drawings</h3>
                                 </div>
                                 <div>
@@ -26,35 +26,35 @@ function Landing() {
                                     <p className="mb-1 text-muted" style={{ fontSize: "18px", textAlign: "right" }}>Salvador Dali</p>
                                 </div>
                             </div>
-                            <img src="/images/landing.png" className="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="logo"/>
+                            <img src="/images/landing.png" className="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="landing"/>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                         <div className="card border-0 flex-md-row mb-4 h-md-250">
-                            <div className="card-body d-flex flex-column align-items-end" style={{paddingRight: "150px"}}>
-                                <strong className="d-inline-block mb-2" style={{color: "purple"}}>portfolio</strong>
+                            <div className="card-body d-flex flex-column align-items-end" style={{paddingRight: "80px"}}>
+                                <strong className="d-inline-block mb-2" style={{color: "purple", fontSize:"18px"}}>p o r t f o l i o</strong>
                                 <div className="mb-0" style={{textAlign: "right"}}>
-                                    <Link className="link-success" to="/portfolio">check out</Link>
+                                    <Link className="link-success" to="/portfolio" style={{fontSize:"20px"}}>check out</Link>
                                     <h2 className="text-dark text-decoration-underline">MY Tattoo art</h2>
                                 </div>
                                 <div>
                                     <p className="card-text mb-auto" style={{ fontSize: "25px"}}>“ Everything you can imagine is real.”</p>
-                                    <p className="mb-1 text-muted" style={{ fontSize: "14px", textAlign: "right"}}>Pablo Picasso</p>
+                                    <p className="mb-1 text-muted" style={{ fontSize: "16px", textAlign: "right"}}>Pablo Picasso</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-7">
                             <div className="card flex-md-row mb-4 h-md-250">
                                 <div className="card-body d-flex flex-column align-items-start">
-                                    <strong className="d-inline-block mb-2" style={{ color: "purple" }}>portfolio</strong>
+                                    <strong className="d-inline-block mb-2" style={{ color: "purple", fontSize:"18px" }}>p o r t f o l i o</strong>
                                     <div className="mb-0">
-                                        <Link className="link-success" to="/portfolio">check out</Link>
+                                        <Link className="link-success" to="/portfolio" style={{fontSize:"20px"}}>check out</Link>
 
                                         <h3 className="text-dark text-decoration-underline"> MY Paintings</h3>
                                     </div>
                                     <div>
                                         <p className="card-text mb-auto" style={{fontSize: "18px"}}>“ We live in a rainbow of chaos. ”</p>
-                                        <p className="text-muted mb-1" style={{ fontSize: "14px", textAlign: "right" }}>Paul Cezanne</p>
+                                        <p className="text-muted mb-1" style={{ fontSize: "13px", textAlign: "right" }}>Paul Cezanne</p>
                                     </div>
                                 </div>
                             </div>
