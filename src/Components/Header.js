@@ -26,16 +26,16 @@ function Header() {
                   <Link className="nav-link text-white text-decoration-underline" to="/portfolio">P o r t f o l i o</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link text-white" style={{ fontSize: "20px" }} to="/drawings">/d r a w i n g s</Link>
+                  <Link className="nav-link text-white" style={{ fontSize: "20px" }} to="/portfolio/more%20MY%20Drawings">/d r a w i n g s</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link text-white" style={{ fontSize: "20px" }} to="/tattoos">/t a t t o o s</Link>
+                  <Link className="nav-link text-white" style={{ fontSize: "20px" }} to="/portfolio/more%20MY%20Tattoos%20art">/t a t t o o s</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link text-white" style={{ fontSize: "20px" }} to="/painting">/p a i n t i n g</Link>
+                  <Link className="nav-link text-white" style={{ fontSize: "20px" }} to="/portfolio/more%20MY%20Paintings">/p a i n t i n g s</Link>
                 </li>
                   <li className="nav-item">
-                    <Link className="nav-link text-white" style={{ fontSize: "20px" }} to="/paintings">/m o r e ~ p a i n t i n g s</Link>
+                    <Link className="nav-link text-white" style={{ fontSize: "20px" }} to="/portfolio/more%20MY%20Paintings/paintings">//m o r e ~ p a i n t i n g s</Link>
                   </li>
                 <li className="nav-item">
                   <Link className="nav-link text-white text-decoration-underline" to="/chat">C h a t</Link>

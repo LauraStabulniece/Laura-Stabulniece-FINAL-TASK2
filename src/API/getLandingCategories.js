@@ -1,12 +1,6 @@
 function getLandingCategories() {
     return [
         {
-            note: 'KEIT: "It is a wonderful quote. Well, and it is all about me, too." ~',
-            description2: ' I do not paint dreams or nightmares, I paint my own reality.',
-            text2: '~ Frida Kahlo',
-            navigation2: "Take a look",
-        },
-        {
             image: '/images/landing.png',
             subtitle: 'portfolio',
             name: 'MY Drawings',

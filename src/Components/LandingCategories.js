@@ -9,15 +9,13 @@ function LandingCategories() {
         return (
             <div>
                 <div key={index}>
-                    <th scope="row">
-                        {category.navigation}
-                    </th>
-                    <div className="col">
-                        <h1 className="display-4 font-italic">{category.description2}</h1>
-                        <h3 className="my-3">{category.text2}</h3>
-                        <p className="lead my-3">{category.note}</p>
-                        <p className="lead mb-0"><Link to={`/portfolio/${category.navigation}`} className="text-white font-weight-bold">{category.text2}</Link></p>
-                    </div>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+
+                   <td></td>
+                   ))
+return (
                     <div className="row mb-2">
                         <div className="col-md-7">
                             <div className="card border-0 flex-md-row mb-4 h-md-250">

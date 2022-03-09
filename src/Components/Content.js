@@ -16,10 +16,10 @@ function Content() {
             <Routes>
                 <Route path="/" element={<Landing />} />
                 <Route path="/portfolio" element={<Portfolio />} />
-                <Route path="/drawings" element={<Drawings />} />
-                <Route path="/tattoos" element={<Tattoos />} />
-                <Route path="/painting" element={<Painting />} />
-                <Route path="/paintings" element={<Paintings />} />
+                <Route path="/portfolio/more%20MY%20Drawings" element={<Drawings />} />
+                <Route path="/portfolio/more%20MY%20Tattoos%20art" element={<Tattoos />} />
+                <Route path="/portfolio/more%20MY%20Paintings" element={<Painting />} />
+                <Route path="/portfolio/more%20MY%20Paintings/paintings" element={<Paintings />} />
                 <Route path="/chat" element={<Chat/>} />
                 <Route path="/register" element={<Register/>} />
                 <Route path="/aboutme" element={<AboutMe/>} />

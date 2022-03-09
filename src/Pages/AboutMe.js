@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import AboutBiography from "../Components/AboutBiography"
 import Tabs from "../Components/Tabs"
 
 function AboutMe() {
@@ -18,9 +17,7 @@ function AboutMe() {
                         </nav>
                     </div>
                 </div>
-      <Tabs />
-                        
-<AboutBiography />
+                        <Tabs />
                             </div>
                         </div>
                   
