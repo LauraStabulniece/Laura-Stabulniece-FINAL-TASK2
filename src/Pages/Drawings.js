@@ -28,7 +28,7 @@ function Drawings() {
                     <CarouselDrawings />
                 </div>
                 <div className="row align-items-md-stretch">
-                    <div className="col-md-5" style={{ marginTop: "50px" }}>
+                    <div className="col-md-4" style={{ marginTop: "50px" }}>
                         <DrawingArticles />
                     </div>
                     <div className="col-md-7" style={{ paddingRight: "130px", paddingLeft: "20px" }}>

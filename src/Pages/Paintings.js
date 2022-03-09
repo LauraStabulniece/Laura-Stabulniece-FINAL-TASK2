@@ -15,7 +15,7 @@ function Paintings() {
                                     <Link className="link-secondary text-decoration-none" to="/"><small>home</small></Link>
                                 </li>
                                 <Link className="breadcrumb-item nav-link text-success" to="/portfolio"><small>portfolio</small></Link>
-                                <Link className="breadcrumb-item nav-link text-success" to="/painting"><small>painting</small></Link>
+                                <Link className="breadcrumb-item nav-link text-success" to="/portfolio/more%20MY%20Paintings"><small>painting</small></Link>
                                 <li className="breadcrumb-item active nav-link text-success" aria-current="page"><strong><small>M O R E ~ P A I N T I N G S</small></strong></li>
                             </ol>
                         </nav>
@@ -30,7 +30,7 @@ function Paintings() {
                     </div>
                     <div className="col-md-4">
                             <FancyBoxDifferent />
-                        <p style={{ backgroundColor: "white", marginTop: "100px", padding: "10px", textAlign: "center"}}><strong style={{fontSize: "60px"}}>art is about paying attention</strong>
+                        <p style={{ backgroundColor: "white", marginTop: "100px", padding: "10px", textAlign: "center"}}><strong style={{fontSize: "60px"}}>“ art is about paying attention ”</strong>
                         <p className="text-muted mb-1">-Laurie Anderson</p>
 
                         </p>

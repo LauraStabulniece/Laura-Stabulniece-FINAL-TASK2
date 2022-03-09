@@ -7,9 +7,9 @@ function Landing() {
                 <div className="jumbotron p-3 p-md-5 text-white bg-dark">
                     <div className="col-md-6 px-0">
                     <div className="col">
-                        <h1 className="display-4 font-italic">“ I do not paint dreams or nightmares, I paint my own reality. ”</h1>
+                        <h1 className="display-4 font-italic">“ I don't paint dreams or nightmares, I paint my own reality. ”</h1>
                         <h3 className="my-3">~ Frida Kahlo</h3>
-                        <p className="lead my-3">note: 'KEIT: "It is a wonderful quote. Well, and it is all about me, too." ~</p>
+                        <p className="lead my-3">KEIT: " It is a wonderful quote. Well, and it is all about me, too. " ~</p>
                         <p className="lead mb-0"><Link to="/portfolio" className="text-white font-weight-bold">Take a look</Link></p>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ function Landing() {
                                     <h2 className="text-dark text-decoration-underline">MY Tattoo art</h2>
                                 </div>
                                 <div>
-                                    <p className="card-text mb-auto" style={{ fontSize: "25px"}}>“ Everything you can imagine is real.”</p>
+                                    <p className="card-text mb-auto" style={{ fontSize: "25px"}}>“ Everything you can imagine is real. ”</p>
                                     <p className="mb-1 text-muted" style={{ fontSize: "16px", textAlign: "right"}}>Pablo Picasso</p>
                                 </div>
                             </div>
