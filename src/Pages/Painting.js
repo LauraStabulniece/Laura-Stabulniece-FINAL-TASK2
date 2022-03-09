@@ -14,7 +14,6 @@ function Painting() {
                                 </li>
                                 <Link className="breadcrumb-item nav-link text-success" to="/portfolio"><small>portfolio</small></Link>
                                 <li className="breadcrumb-item active nav-link text-success" aria-current="page"><strong><small>P A I N T I N G</small></strong></li>
-
                             </ol>
                         </nav>
                     </div>

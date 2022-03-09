@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import AboutBiography from "../Components/AboutBiography"
+import Tabs from "../Components/Tabs"
 
 function AboutMe() {
     return (
@@ -16,8 +18,12 @@ function AboutMe() {
                         </nav>
                     </div>
                 </div>
-            </div>
-        </div>
+      <Tabs />
+                        
+<AboutBiography />
+                            </div>
+                        </div>
+                  
     )
 }
 export default AboutMe

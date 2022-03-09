@@ -14,7 +14,6 @@ function Categories() {
                         <img src={category.image2} className="img-fluid rounded-circle m-3" style={{ width: 400 }} alt="..." />
                         <img src={category.image3} className="img-fluid rounded-circle m-3" style={{ width: 400 }} alt="..." />
                     </th>
-
                     <div className="col" style={{ marginTop: "50px" }}>
                         <div className="card border-0">
                             <h2 className="card-text text-center m-3">
@@ -28,8 +27,6 @@ function Categories() {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         )
