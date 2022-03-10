@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import ContactsInfo from "../Components/ContactsInfo"
 import Tabs from "../Components/Tabs"
 
 function AboutMe() {
@@ -17,10 +18,16 @@ function AboutMe() {
                         </nav>
                     </div>
                 </div>
-                        <Tabs />
-                            </div>
-                        </div>
-                  
+                <div>
+                    <Tabs />
+                </div>
+            </div>
+            <div>
+                <ContactsInfo />
+            </div>
+
+        </div>
+
     )
 }
 export default AboutMe

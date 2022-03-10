@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import RegisterFields from "../Components/RegisterFields"
 
 function Register() {
     return (
@@ -16,6 +17,9 @@ function Register() {
                         </nav>
                     </div>
                 </div>
+                <div style={{backgroundColor: "pink"}}>
+<RegisterFields />
+</div>
             </div>
         </div>
     )
