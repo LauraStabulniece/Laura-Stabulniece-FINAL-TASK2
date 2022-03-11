@@ -57,7 +57,7 @@ function RegisterFields(props) {
                     <div className="row m-2">
                         <div className="col">
                             <input className="form-check-input" type="checkbox" style={{ marginRight: "10px" }} value="" id="form-check" required></input>
-                            <label for="form-check" className="form-check-label">AGREE with terms and conditions*</label>
+                            <label for="form-check" className="form-check-label">AGREE that EARTH without A R T is just “eh” *</label>
                         </div>
                     </div>
                     <div className="row m-3">
