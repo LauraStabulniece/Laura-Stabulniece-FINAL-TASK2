@@ -27,6 +27,15 @@ function getCategories() {
             text: 'I dream my painting and I paint my dream.',
             name: 'Vincent Willem van Gogh',
         },
+        {
+            image1: '/images/category/4.jpeg',
+            image2: '/images/category/44.jpeg',
+            image3: '/images/category/444.jpeg',
+            title: '',
+            description: 'A smile is formed primarily by flexing the muscles at the sides of the mouth. Some smiles include a contraction of the muscles at the corner of the eyes. Among humans, a smile expresses delight, sociability, happiness, joy or amusement',
+            text: 'Sometimes the perfect gift is a happy smile. Give something to get smile',
+            name: 'Jekaterina Matvejeva',
+        },
     ]
 }
 export default getCategories

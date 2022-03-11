@@ -6,18 +6,18 @@ function Categories() {
     const categories = getCategories()
     const [startList, setStartList] = useState(0)
 
-    const endList = startList + 2
+    const endList = startList + 3
     const moveLeft = () => {
-        let nextSelected = startList - 2
+        let nextSelected = startList - 3
         if (nextSelected < 0) {
             nextSelected = 0
         }
         setStartList(nextSelected)
     }
     const moveRight = () => {
-        let nextSelected = startList + 2
-        if (nextSelected > 2) {
-            nextSelected = 22
+        let nextSelected = startList + 3
+        if (nextSelected > 3) {
+            nextSelected = 3
         }
         setStartList(nextSelected)
     }
@@ -25,7 +25,7 @@ function Categories() {
         setStartList(0)
     }
     const changePageTwo = () => {
-        setStartList(2)
+        setStartList(3)
     }
 
     const categoriesList = categories.slice(startList, endList).map((category, index) => {
