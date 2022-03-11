@@ -7,24 +7,19 @@ function Categories() {
     const [startList, setStartList] = useState(0)
 
     const endList = startList + 3
-    const moveLeft = () => {
+    
+    const changePageOne = () => {
         let nextSelected = startList - 3
         if (nextSelected < 0) {
             nextSelected = 0
         }
-        setStartList(nextSelected)
+        setStartList(0)
     }
-    const moveRight = () => {
+    const changePageTwo = () => {
         let nextSelected = startList + 3
         if (nextSelected > 3) {
             nextSelected = 3
         }
-        setStartList(nextSelected)
-    }
-    const changePageOne = () => {
-        setStartList(0)
-    }
-    const changePageTwo = () => {
         setStartList(3)
     }
 
