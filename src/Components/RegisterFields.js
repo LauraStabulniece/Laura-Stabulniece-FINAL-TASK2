@@ -46,8 +46,9 @@ function RegisterFields(props) {
                     </div>
                     <div className="row m-1">
                         <div className="col">
+                        <label for="country" class="form-label"></label>
                             <select className="text-muted" id="country" required>
-                                <option selected value>Country*</option>
+                                <option selected disabled value>country*</option>
                                 <option>Wonderland</option>
                                 <option>Dreams</option>
                                 <option>Disneyland</option>
@@ -57,12 +58,12 @@ function RegisterFields(props) {
                     <div className="row m-2">
                         <div className="col">
                             <input className="form-check-input" type="checkbox" style={{ marginRight: "10px" }} value="" id="form-check" required></input>
-                            <label for="form-check" className="form-check-label">AGREE that EARTH without A R T is just “eh” *</label>
+                            <label type="form-check" className="form-check-label">AGREE that EARTH without A R T is just “eh” *</label>
                         </div>
                     </div>
                     <div className="row m-3">
                         <div className="col">
-                            <button className="btn btn-info btn-submit"><Link className=" text-decoration-none" style={{ color: "white" }} to="/thanks"> Register</Link></button>
+                            <button className="btn btn-info btn-submit">Register <Link className=" text-decoration-none" style={{ color: "white" }} to="/thanks"> <button className="btn btn-info btn-submit"></button></Link></button>
                         </div>
                     </div>
                 </div>
