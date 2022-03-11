@@ -14,7 +14,6 @@ function Landing() {
                     </div>
                 </div>
                 </div>
-
                 <div className="row mb-2">
                     <div className="col-md-7">
                         <div className="card border-0 flex-md-row mb-4 h-md-250">

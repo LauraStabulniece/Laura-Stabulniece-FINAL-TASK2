@@ -9,20 +9,15 @@ function LandingCategories() {
         return (
             <div>
                 <div key={index}>
-                   <td></td>
-                   <td></td>
-                   <td></td>
-
-                   <td></td>
-                   ))
-return (
+                {/* <th scope={category.subtitle}></th> */}
+                   
                     <div className="row mb-2">
                         <div className="col-md-7">
                             <div className="card border-0 flex-md-row mb-4 h-md-250">
                                 <div className="card-body d-flex flex-column align-items-start" id="borders">
                                     <strong className="d-inline-block mb-2" style={{ color: "purple", fontSize: "18px" }}>{category.subtitle}</strong>
                                     <div className="mb-0">
-                                        <Link className="link-success" to={`/portfolio/${category.navigation}`} style={{ fontSize: "20px" }}></Link>
+                                        <Link className="link-success" to="/portfolio" style={{ fontSize: "20px" }}>{category.navigation}</Link>
                                         <h3 className="text-dark text-decoration-underline">{category.name}</h3>
                                     </div>
                                     <div>

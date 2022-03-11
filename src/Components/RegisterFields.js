@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 function RegisterFields(props) {
 
     function form_submit_register() {
+        
         props.setRegister(true)
     }
     return (
@@ -16,7 +17,7 @@ function RegisterFields(props) {
 
                     <div className="row" style={{ margin: "20px" }}>
                         <div className="col">
-                            <img src="images/register.png" className="img-fluid rounded-circle" />
+                            <img src="images/register.png" className="img-fluid rounded-circle" alt=""/>
                         </div>
                     </div>
                     <div className="row m-1">
@@ -63,6 +64,7 @@ function RegisterFields(props) {
                     </div>
                     <div className="row m-3">
                         <div className="col">
+                        {/* <button className="btn btn-info btn-submit">Register</button> */}
                             <button className="btn btn-info btn-submit">Register <Link className=" text-decoration-none" style={{ color: "white" }} to="/thanks"> <button className="btn btn-info btn-submit"></button></Link></button>
                         </div>
                     </div>

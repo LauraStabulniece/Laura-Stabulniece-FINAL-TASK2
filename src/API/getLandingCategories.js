@@ -9,6 +9,7 @@ function getLandingCategories() {
             navigation: "check out",
         },
         {
+            image:'',
             subtitle: 'portfolio',
             name: 'MY Tattoo art',
             description: 'Everything you can imagine is real.',
@@ -16,6 +17,7 @@ function getLandingCategories() {
             navigation: "check out",
         },
         {
+            image:'',
             subtitle: 'portfolio',
             name: 'MY Paintings',
             description: 'We live in a rainbow of chaos.',
