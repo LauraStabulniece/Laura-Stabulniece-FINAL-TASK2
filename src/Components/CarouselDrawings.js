@@ -33,43 +33,43 @@ function CarouselDrawings() {
                     </div>
                     <div className="carousel-inner rounded-3">
                         <div className="carousel-item active">
-                            <img src="/images/carouselDrawings/1.png" className="d-block w-100" />
+                            <img src="/images/carouselDrawings/1.png" className="d-block w-100" alt="drawingsCarouselImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselDrawings/2.png" className="d-block w-100" />
+                            <img src="/images/carouselDrawings/2.png" className="d-block w-100" alt="drawingsCarouselImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselDrawings/3.png" className="d-block w-100" />
+                            <img src="/images/carouselDrawings/3.png" className="d-block w-100" alt="drawingsCarouselImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselDrawings/4.png" className="d-block w-100" />
+                            <img src="/images/carouselDrawings/4.png" className="d-block w-100" alt="drawingsCarouselImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselDrawings/5.png" className="d-block w-100" />
+                            <img src="/images/carouselDrawings/5.png" className="d-block w-100" alt="drawingsCarouselImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselDrawings/6.png" className="d-block w-100" />
+                            <img src="/images/carouselDrawings/6.png" className="d-block w-100" alt="drawingsCarouselImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselDrawings/7.png" className="d-block w-100" />
+                            <img src="/images/carouselDrawings/7.png" className="d-block w-100" alt="drawingsCarouselImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselDrawings/8.png" className="d-block w-100" />
+                            <img src="/images/carouselDrawings/8.png" className="d-block w-100" alt="drawingsCarouselImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselDrawings/9.png" className="d-block w-100" />
+                            <img src="/images/carouselDrawings/9.png" className="d-block w-100" alt="drawingsCarouselImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselDrawings/10.png" className="d-block w-100" />
+                            <img src="/images/carouselDrawings/10.png" className="d-block w-100" alt="drawingsCarouselImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselDrawings/11.png" className="d-block w-100" />
+                            <img src="/images/carouselDrawings/11.png" className="d-block w-100" alt="drawingsCarouselImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselDrawings/12.png" className="d-block w-100" />
+                            <img src="/images/carouselDrawings/12.png" className="d-block w-100" alt="drawingsCarouselImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselDrawings/13.png" className="d-block w-100" />
+                            <img src="/images/carouselDrawings/13.png" className="d-block w-100" alt="drawingsCarouselImage" />
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"

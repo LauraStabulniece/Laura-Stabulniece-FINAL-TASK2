@@ -37,49 +37,49 @@ function CarouselTattoo() {
                     </div>
                     <div className="carousel-inner rounded-3">
                         <div className="carousel-item active">
-                            <img src="/images/carouselTattoo/1.png" className="d-block w-100" />
+                            <img src="/images/carouselTattoo/1.png" className="d-block w-100" alt="carouselTattooImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselTattoo/2.png" className="d-block w-100" />
+                            <img src="/images/carouselTattoo/2.png" className="d-block w-100" alt="carouselTattooImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselTattoo/3.png" className="d-block w-100" />
+                            <img src="/images/carouselTattoo/3.png" className="d-block w-100" alt="carouselTattooImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselTattoo/4.png" className="d-block w-100" />
+                            <img src="/images/carouselTattoo/4.png" className="d-block w-100" alt="carouselTattooImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselTattoo/5.png" className="d-block w-100" />
+                            <img src="/images/carouselTattoo/5.png" className="d-block w-100" alt="carouselTattooImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselTattoo/6.png" className="d-block w-100" />
+                            <img src="/images/carouselTattoo/6.png" className="d-block w-100" alt="carouselTattooImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselTattoo/7.png" className="d-block w-100" />
+                            <img src="/images/carouselTattoo/7.png" className="d-block w-100" alt="carouselTattooImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselTattoo/8.png" className="d-block w-100" />
+                            <img src="/images/carouselTattoo/8.png" className="d-block w-100" alt="carouselTattooImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselTattoo/9.png" className="d-block w-100" />
+                            <img src="/images/carouselTattoo/9.png" className="d-block w-100" alt="carouselTattooImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselTattoo/10.png" className="d-block w-100" />
+                            <img src="/images/carouselTattoo/10.png" className="d-block w-100" alt="carouselTattooImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselTattoo/11.png" className="d-block w-100" />
+                            <img src="/images/carouselTattoo/11.png" className="d-block w-100" alt="carouselTattooImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselTattoo/12.png" className="d-block w-100" />
+                            <img src="/images/carouselTattoo/12.png" className="d-block w-100" alt="carouselTattooImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselTattoo/13.png" className="d-block w-100" />
+                            <img src="/images/carouselTattoo/13.png" className="d-block w-100" alt="carouselTattooImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselTattoo/14.png" className="d-block w-100" />
+                            <img src="/images/carouselTattoo/14.png" className="d-block w-100" alt="carouselTattooImage" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/carouselTattoo/15.png" className="d-block w-100" />
+                            <img src="/images/carouselTattoo/15.png" className="d-block w-100" alt="carouselTattooImage" />
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
