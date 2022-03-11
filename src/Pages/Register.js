@@ -17,7 +17,7 @@ function Register() {
                         </nav>
                     </div>
                 </div>
-                <div style={{backgroundColor: "pink"}}>
+                <div style={{backgroundColor: "rgba(129, 235, 208, 0.39)"}}>
 <RegisterFields />
 </div>
             </div>

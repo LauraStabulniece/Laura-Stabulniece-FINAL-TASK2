@@ -8,6 +8,7 @@ import Drawings from "../Pages/Drawings";
 import Tattoos from "../Pages/Tattoos";
 import Painting from "../Pages/Painting";
 import Paintings from "../Pages/Paintings";
+import Complete from "../Pages/Complete";
 
 
 function Content() {
@@ -22,6 +23,7 @@ function Content() {
                 <Route path="/portfolio/more%20MY%20Paintings/paintings" element={<Paintings />} />
                 <Route path="/chat" element={<Chat/>} />
                 <Route path="/register" element={<Register/>} />
+                <Route path="/thanks" element={<Complete />} />
                 <Route path="/aboutme" element={<AboutMe/>} />
             </Routes>
         </div>

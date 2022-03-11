@@ -1,10 +1,34 @@
 import { Link } from "react-router-dom"
+import { useState } from "react"
 import getCategories from "../API/getCategories"
 
 function Categories() {
     const categories = getCategories()
+    const [startList, setStartList] = useState(0)
 
-    const categoriesList = categories.map((category, index) => {
+    const endList = startList + 2
+    const moveLeft = () => {
+        let nextSelected = startList - 2
+        if (nextSelected < 0) {
+            nextSelected = 0
+        }
+        setStartList(nextSelected)
+    }
+    const moveRight = () => {
+        let nextSelected = startList + 2
+        if (nextSelected > 2) {
+            nextSelected = 22
+        }
+        setStartList(nextSelected)
+    }
+    const changePageOne = () => {
+        setStartList(0)
+    }
+    const changePageTwo = () => {
+        setStartList(2)
+    }
+
+    const categoriesList = categories.slice(startList, endList).map((category, index) => {
 
         return (
             <div>
@@ -34,7 +58,13 @@ function Categories() {
 
     return (
         <div>
+            <div>
             {categoriesList}
+            </div>
+            <div className="btn-group float-end" role="group" aria-label="Basic outlined example">
+                <button onClick={() => changePageOne(startList)} type="button" className="btn btn-outline-secondary">1</button>
+                <button onClick={() => changePageTwo(startList)} type="button" className="btn btn-outline-secondary">2</button>
+            </div>
         </div>
     )
 }
