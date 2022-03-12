@@ -8,8 +8,8 @@ function ContactsArticle() {
 
     return (
       <div key={index}>
-            <h4 style={{backgroundColor: "black", color: "white",  paddingLeft: "40px", paddingTop: "20px", paddingBottom: "20px"}}>{category.title} :</h4>
-            <p style={{paddingLeft: "40px"}}>{category.description}</p>
+            <h3 style={{backgroundColor: "rgba(46, 13, 83, 0.747)", color: "white",  paddingLeft: "40px", paddingTop: "20px", paddingBottom: "20px"}}>{category.title} :</h3>
+            <p style={{paddingLeft: "40px", fontSize: "25px"}}>{category.description}</p>
           </div>
     )
   })

@@ -1,15 +1,15 @@
 function getContactsArticles() {
     return [
         {
-            title: 'Address',
-            description: 'Preiļi, Latvija',
+            title: 'A d d r e s s',
+            description: 'earth',
         },
         {
-            title: 'Email',
+            title: 'E m a i l',
             description: 'lets better chat',
         },
         {
-            title: 'Phone',
+            title: 'P h o n e',
             description: 'lets better chat',
         },
     ]
