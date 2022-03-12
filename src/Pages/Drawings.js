@@ -32,9 +32,9 @@ function Drawings() {
                     <div className="col-md-4" style={{ marginTop: "50px" }}>
                         <DrawingArticles />
                     </div>
-                    <div className="col-md-8" style={{ paddingRight: "130px", paddingLeft: "90px" }}>
+                    <div className="col-md-8" style={{ paddingRight: "130px", paddingLeft: "90px", paddingTop: "50px" }}>
                         <MoreDrawingsArticle />
-                    <p className="align-middle text-center text-decoration-underline" style={{ color: "rgba(241, 68, 140, 0.685)", fontSize: "70px", paddingTop: "10px", marginBottom: "100px"}}>art is theraphy </p>
+                    <p className="align-middle text-center text-decoration-underline" style={{ color: "rgba(241, 68, 140, 0.685)", fontSize: "70px", marginBottom: "100px"}}>art is theraphy </p>
                     </div>
                 </div>
             </div>

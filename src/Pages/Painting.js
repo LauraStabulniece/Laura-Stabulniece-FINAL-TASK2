@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import MorePaintingsArticle from "../Components/MorePaintingsArticle"
+import PaintingsArticle from "../Components/PaintingsArticle"
 
 function Painting() {
     return (
@@ -27,15 +27,15 @@ function Painting() {
                     </div>
                     <div className="col-md-10 rounded-3" style={{ backgroundColor: "rgba(240, 138, 181, 0.424)" }}>
                         <div className="card-body">
-                            <MorePaintingsArticle />
+                            <PaintingsArticle />
                         </div>
                     </div>
                 </div>
                 <div className="row align-items-md-stretch" style={{ marginTop: "20px", marginBottom: "100px" }}>
                     <div className="col-md-6">
                         <div className="h-100 p-5 text-white rounded-3" style={{ backgroundColor: "rgba(63, 176, 184, 0.253)" }}>
-                            <div style={{ color: "rgba(74, 189, 39, 0.815)", fontSize: "60px", paddingTop: "70px" }}>explore more</div>
-                            <div style={{ color: "rgba(241, 68, 140, 0.685)", fontSize: "100px" }}>PAINTINGS</div>
+                            <p style={{ color: "rgba(74, 189, 39, 0.815)", fontSize: "60px", paddingTop: "70px" }}>explore more</p>
+                            <p style={{ color: "rgba(241, 68, 140, 0.685)", fontSize: "100px" }}>PAINTINGS</p>
                             <h4><Link to="/portfolio/more%20MY%20Paintings/paintings" className="link-warning">HERE</Link></h4>
                         </div>
                     </div>

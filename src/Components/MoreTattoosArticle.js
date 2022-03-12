@@ -7,14 +7,12 @@ function MoreTattoosArticle() {
     const categoriesItems = categories.map((category, index) => {
 
         return (
-            <div>
                 <div key={index}>
                     <div className="card-body m-5 align-middle text-center" style={{ backgroundColor: "white" }}>
-                        <p className="card-text" style={{ fontSize: "30px" }}>“ {category.text} ”</p>
-                        <p className="text-muted" style={{ fontSize: "15px" }}>- {category.name}</p>
+                        <div className="card-text" style={{ fontSize: "30px" }}>“ {category.text} ”</div>
+                        <div className="text-muted" style={{ fontSize: "15px" }}>- {category.name}</div>
                     </div>
                 </div>
-            </div>
         )
     })
     return (

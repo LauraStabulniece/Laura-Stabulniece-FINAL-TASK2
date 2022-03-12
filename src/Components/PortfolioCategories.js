@@ -26,7 +26,6 @@ function PortfolioCategories() {
     const categoriesList = categories.slice(startList, endList).map((category, index) => {
 
         return (
-            <div>
                 <div key={index}>
                     <div className="row d-flex mx-auto">
                         <img src={category.image1} className="img-fluid rounded-circle m-3" style={{ width: 400 }} alt="..." />
@@ -47,7 +46,6 @@ function PortfolioCategories() {
                         </div>
                     </div>
                 </div>
-            </div>
         )
     })
 
