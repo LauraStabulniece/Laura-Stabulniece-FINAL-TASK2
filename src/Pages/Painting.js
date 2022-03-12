@@ -22,7 +22,7 @@ function Painting() {
                     <div className="col-md-2 rounded-3">
                         <img src="/images/painting/1.png" className="card-img-top" alt="" />
                         <div className="card-body">
-                            <h1><Link to="/portfolio/more%20MY%20Paintings/paintings" className="link-dark m-2">explore paintings</Link></h1>
+                            <p><Link to="/portfolio/more%20MY%20Paintings/paintings" className="link-dark m-2" style={{fontSize: "25px"}}>explore paintings</Link></p>
                         </div>
                     </div>
                     <div className="col-md-10 rounded-3" style={{ backgroundColor: "rgba(240, 138, 181, 0.424)" }}>
@@ -34,8 +34,8 @@ function Painting() {
                 <div className="row align-items-md-stretch" style={{ marginTop: "20px", marginBottom: "100px" }}>
                     <div className="col-md-6">
                         <div className="h-100 p-5 text-white rounded-3" style={{ backgroundColor: "rgba(63, 176, 184, 0.253)" }}>
-                            <p style={{ color: "rgba(74, 189, 39, 0.815)", fontSize: "60px", paddingTop: "70px" }}>explore more</p>
-                            <p style={{ color: "rgba(241, 68, 140, 0.685)", fontSize: "100px" }}>PAINTINGS</p>
+                            <p style={{ color: "rgba(74, 189, 39, 0.815)", fontSize: "100px", paddingTop: "70px" }}>explore more</p>
+                            <p style={{ color: "rgba(241, 68, 140, 0.685)", fontSize: "40px" }}>PAINTINGS</p>
                             <h4><Link to="/portfolio/more%20MY%20Paintings/paintings" className="link-warning">HERE</Link></h4>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ function Painting() {
                             <div className="card-body">
                                 <p className="card-text">Painting is just another way of keeping diary</p>
                                 <p ><small className="text-muted">-Pablo Picasso</small></p>
-                                <p className="align-middle text-center" style={{ color: "purple", fontSize: "50px" }}>I offer a</p>
+                                <p className="align-middle text-center" style={{ color: "purple", fontSize: "30px" }}>I offer a</p>
                                 <h2><Link to="/portfolio/more%20MY%20Paintings/paintings" className="link-success">l o o k mine</Link></h2>
                             </div>
                         </div>

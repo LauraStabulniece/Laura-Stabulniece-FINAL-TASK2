@@ -24,12 +24,12 @@ function Paintings() {
                 <div className="row align-items-md-stretch" style={{ backgroundColor: "black", marginBottom: "100px", padding: "20px" }}>
                     <div className="col-md-4">
                         <FancyBoxFlower />
-                        <p style={{ marginTop: "170px", padding: "10px", textAlign: "center" }}><strong style={{ color: "white", fontSize: "100px" }}>ART NEVER SLEEPS</strong></p>
+                        <p style={{ marginTop: "250px", padding: "10px", textAlign: "center" }}><strong style={{ color: "white", fontSize: "70px" }}>ART NEVER SLEEPS</strong></p>
                     </div>
                     <div className="col-md-4">
                         <FancyBoxDifferent />
-                        <p style={{ backgroundColor: "white", marginTop: "100px", padding: "10px", textAlign: "center" }}><strong style={{ fontSize: "60px" }}>“ art is about paying attention ”</strong></p>
-                        <p className="text-muted mb-1">-Laurie Anderson</p>
+                        <p style={{ backgroundColor: "white", marginTop: "80px", marginRight: "10px", padding: "10px", textAlign: "center" }}><strong style={{ fontSize: "60px" }}>“ art is about paying attention ”</strong></p>
+                        <p className="text-muted mb-1" style={{textAlign: "center"}}>-Laurie Anderson</p>
                     </div>
                     <div className="col-md-4">
                         <FancyBoxPortraits />

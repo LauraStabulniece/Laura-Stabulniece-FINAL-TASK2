@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import ContactsInfo from "../Components/ContactsInfo"
-import Tabs from "../Components/Tabs"
+import ContactsArticle from "../Components/ContactsArticle"
+import TabsArticles from "../Components/TabArticles"
 
 function AboutMe() {
     return (
@@ -19,11 +19,16 @@ function AboutMe() {
                     </div>
                 </div>
                 <div>
-                    <Tabs />
+                    <TabsArticles />
                 </div>
             </div>
-            <div>
-                <ContactsInfo />
+            <div className="row" style={{marginTop: "100px", marginBottom: "100px"}}>
+                <div className="col-5">
+                    <h1>TE IR JĀBŪT KARTEI</h1>
+                </div>
+                <div className="col-7">
+                    <ContactsArticle />
+                </div>
             </div>
         </div>
     )
