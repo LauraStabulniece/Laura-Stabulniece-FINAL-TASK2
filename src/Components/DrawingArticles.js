@@ -21,7 +21,7 @@ function DrawingArticles() {
         <div>
             <div className="row">
                 <div className="col">
-                    <img src={image} className="w-100" alt="drawingArticles" />
+                    <img src={image} className="w-100 rounded-3" alt="drawingArticles" />
                 </div>
             </div>
             <div className="row">

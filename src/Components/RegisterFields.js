@@ -22,7 +22,7 @@ function RegisterFields(props) {
                     </div>
                     <div className="row m-1">
                         <div className="col">
-                            <input type="text" id="username" placeholder="username*" required minLength="5"></input>
+                            <input type="text id" id="username" placeholder="username*" required minLength="5"></input>
                         </div>
                     </div>
                     <div className="row m-1">
@@ -47,12 +47,11 @@ function RegisterFields(props) {
                     </div>
                     <div className="row m-1">
                         <div className="col">
-                        <label for="country" class="form-label"></label>
-                            <select className="text-muted" id="country" required>
-                                <option selected disabled value>country*</option>
-                                <option>Wonderland</option>
-                                <option>Dreams</option>
-                                <option>Disneyland</option>
+                            <select className="text-muted" id="country">
+                            <option selected value="country">country*</option>
+                            <option value="Wonderland">Wonderland</option>
+                            <option value="Dreams">Dreams</option>
+                            <option value="Disneyland">Disneyland</option>
                             </select>
                         </div>
                     </div>
@@ -65,7 +64,8 @@ function RegisterFields(props) {
                     <div className="row m-3">
                         <div className="col">
                         {/* <button className="btn btn-info btn-submit">Register</button> */}
-                            <button className="btn btn-info btn-submit">Register <Link className=" text-decoration-none" style={{ color: "white" }} to="/thanks"> <button className="btn btn-info btn-submit"></button></Link></button>
+                        {/* <button className="btn btn-info btn-submit">Register <Link className=" text-decoration-none" style={{ color: "white" }} to="/thanks"> <button className="btn btn-info btn-submit"></button></Link></button> */}
+                            <button className="btn btn-info btn-submit" style={{ color: "white" }}><Link to="/thanks" className=" text-decoration-none"></Link> Register</button>
                         </div>
                     </div>
                 </div>

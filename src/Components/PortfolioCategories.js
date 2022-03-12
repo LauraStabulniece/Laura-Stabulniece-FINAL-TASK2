@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
-import getCategories from "../API/getCategories"
+import getPortfolioCategories from "../Data/getPortfolioCategories"
 
-function Categories() {
-    const categories = getCategories()
+function PortfolioCategories() {
+    const categories = getPortfolioCategories()
     const [startList, setStartList] = useState(0)
 
     const endList = startList + 3
@@ -28,11 +28,11 @@ function Categories() {
         return (
             <div>
                 <div key={index}>
-                    <th scope="row d-flex mx-auto">
+                    <div className="row d-flex mx-auto">
                         <img src={category.image1} className="img-fluid rounded-circle m-3" style={{ width: 400 }} alt="..." />
                         <img src={category.image2} className="img-fluid rounded-circle m-3" style={{ width: 400 }} alt="..." />
                         <img src={category.image3} className="img-fluid rounded-circle m-3" style={{ width: 400 }} alt="..." />
-                    </th>
+                    </div>
                     <div className="col" style={{ marginTop: "50px" }}>
                         <div className="card border-0">
                             <h2 className="card-text text-center m-3">
@@ -64,4 +64,4 @@ function Categories() {
     )
 }
 
-export default Categories
+export default PortfolioCategories

@@ -1,8 +1,8 @@
 import { useState } from "react"
-import getCategories from "../API/getCategories"
+import getPortfolioCategories from "../Data/getPortfolioCategories"
 
-function CategoriesSearch() {
-    const [items] = useState(getCategories())
+function PortfolioCategoriesSearch() {
+    const [items] = useState(getPortfolioCategories())
     const [searchTerm, setSearchTerm] = useState("")
 
     const filterList = items
@@ -41,4 +41,4 @@ function CategoriesSearch() {
     )
 }
 
-export default CategoriesSearch
+export default PortfolioCategoriesSearch

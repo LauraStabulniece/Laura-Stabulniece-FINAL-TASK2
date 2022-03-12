@@ -6,7 +6,7 @@ import FancyBoxPortraits from "../Components/FancyBoxPortraits"
 function Paintings() {
     return (
         <div>
-            <div container>
+            <div container="true">
                 <div className="row">
                     <div className="col-sm-12 my-3">
                         <nav aria-label="breadcrumb">
@@ -21,22 +21,18 @@ function Paintings() {
                         </nav>
                     </div>
                 </div>
-                <div className="row align-items-md-stretch" style={{backgroundColor: "black", marginBottom: "100px", padding: "20px"}}>
+                <div className="row align-items-md-stretch" style={{ backgroundColor: "black", marginBottom: "100px", padding: "20px" }}>
                     <div className="col-md-4">
-                            <FancyBoxFlower />
-                            <p style={{ marginTop: "170px", padding: "10px", textAlign: "center"}}><strong style={{color: "white", fontSize: "100px"}}>ART NEVER SLEEPS</strong></p>
-                        
-
+                        <FancyBoxFlower />
+                        <p style={{ marginTop: "170px", padding: "10px", textAlign: "center" }}><strong style={{ color: "white", fontSize: "100px" }}>ART NEVER SLEEPS</strong></p>
                     </div>
                     <div className="col-md-4">
-                            <FancyBoxDifferent />
-                        <p style={{ backgroundColor: "white", marginTop: "100px", padding: "10px", textAlign: "center"}}><strong style={{fontSize: "60px"}}>“ art is about paying attention ”</strong>
+                        <FancyBoxDifferent />
+                        <p style={{ backgroundColor: "white", marginTop: "100px", padding: "10px", textAlign: "center" }}><strong style={{ fontSize: "60px" }}>“ art is about paying attention ”</strong></p>
                         <p className="text-muted mb-1">-Laurie Anderson</p>
-
-                        </p>
                     </div>
                     <div className="col-md-4">
-                            <FancyBoxPortraits />
+                        <FancyBoxPortraits />
                     </div>
                 </div>
             </div>

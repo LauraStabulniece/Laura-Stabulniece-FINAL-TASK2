@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-function Articles() {
+function MorePaintingsArticle() {
     const [image, setImage] = useState('/images/article/5.png')
     const images = [
         '/images/article/1.png',
@@ -23,7 +23,7 @@ function Articles() {
             <div className="col-4">
                 <div className="row">
                     <div className="col">
-                        <img src={image} className="w-100" alt="articles" />
+                        <img src={image} className="w-100 rounded-3" alt="articles" />
                     </div>
                 </div>
                 <div className="row">
@@ -40,4 +40,4 @@ function Articles() {
 }
 
 
-export default Articles
+export default MorePaintingsArticle

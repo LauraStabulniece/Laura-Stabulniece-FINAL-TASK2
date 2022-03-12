@@ -21,7 +21,7 @@ function TattooArticles() {
         <div>
             <div className="row">
                 <div className="col">
-                    <img src={image} className="w-100" alt="tattooArticles" />
+                    <img src={image} className="w-100 rounded-3" alt="tattooArticles" />
                 </div>
             </div>
             <div className="row">

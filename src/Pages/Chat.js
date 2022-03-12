@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 function Chat() {
     return (
         <div>
-            <div container>
+            <div container="true">
                 <div className="row">
                     <div className="col-sm-12 my-3">
                         <nav aria-label="breadcrumb">
@@ -20,4 +20,5 @@ function Chat() {
         </div>
     )
 }
+
 export default Chat

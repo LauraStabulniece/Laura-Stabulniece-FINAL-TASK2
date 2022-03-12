@@ -4,7 +4,7 @@ import RegisterFields from "../Components/RegisterFields"
 function Register() {
     return (
         <div>
-            <div container>
+            <div container="true">
                 <div className="row">
                     <div className="col-sm-12 my-3">
                         <nav aria-label="breadcrumb">
@@ -17,11 +17,12 @@ function Register() {
                         </nav>
                     </div>
                 </div>
-                <div style={{backgroundColor: "rgba(129, 235, 208, 0.39)"}}>
-<RegisterFields />
-</div>
+                <div style={{ backgroundColor: "rgba(129, 235, 208, 0.39)" }}>
+                    <RegisterFields />
+                </div>
             </div>
         </div>
     )
 }
+
 export default Register

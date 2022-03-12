@@ -1,4 +1,4 @@
-function getCategories() {
+function getPortfolioCategories() {
     return [
         {
             image1: '/images/category/1.png',
@@ -38,4 +38,4 @@ function getCategories() {
         },
     ]
 }
-export default getCategories
+export default getPortfolioCategories

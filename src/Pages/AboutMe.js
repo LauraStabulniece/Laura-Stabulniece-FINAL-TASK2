@@ -5,7 +5,7 @@ import Tabs from "../Components/Tabs"
 function AboutMe() {
     return (
         <div>
-            <div container>
+            <div container="true">
                 <div className="row">
                     <div className="col-sm-12 my-3">
                         <nav aria-label="breadcrumb">
@@ -25,9 +25,8 @@ function AboutMe() {
             <div>
                 <ContactsInfo />
             </div>
-
         </div>
-
     )
 }
+
 export default AboutMe
