@@ -2,15 +2,15 @@ function getContactsArticles() {
     return [
         {
             title: 'Address',
-            description: 'Miera iela 50, Riga, LV-1013, Latvia',
+            description: 'Preiļi, Latvija',
         },
         {
             title: 'Email',
-            description: 'info@dreamteam.com',
+            description: 'lets better chat',
         },
         {
             title: 'Phone',
-            description: +123456789,
+            description: 'lets better chat',
         },
     ]
 }

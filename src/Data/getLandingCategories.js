@@ -1,5 +1,5 @@
-function getLandingCategories() {
-    return [
+function getLandingCategories() { 
+    return [   [sacinit]
         {
             image: '/images/landing.png',
             subtitle: 'portfolio',

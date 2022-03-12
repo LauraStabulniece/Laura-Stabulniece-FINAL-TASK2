@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import ContactsArticle from "../Components/ContactsArticle"
+import SocialIcons from "../Components/SocialIcons"
 import TabsArticles from "../Components/TabArticles"
 
 function AboutMe() {
@@ -28,6 +29,9 @@ function AboutMe() {
                 </div>
                 <div className="col-7">
                     <ContactsArticle />
+                <h4 style={{backgroundColor: "black", paddingTop: "20px", paddingBottom: "20px"}}>
+                    <SocialIcons />
+                </h4>
                 </div>
             </div>
         </div>

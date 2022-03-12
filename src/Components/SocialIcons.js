@@ -12,7 +12,7 @@ function SocialIcons() {
                     <FontAwesomeIcon icon={faFacebook} style={{ color: "white", width: "25px", height: "25px" }} />
                 </a>
                 <a href="https://www.instagram.com/keittattoo/" className="navbar-brand d-flex align-items-center">
-                    <FontAwesomeIcon icon={faInstagram} style={{ color: "white", width: "25px", height: "25px" }} />
+                    <FontAwesomeIcon icon={faInstagram} style={{ color: "white", width: "30px", height: "30px" }} />
                 </a>
             </div>
         </div>

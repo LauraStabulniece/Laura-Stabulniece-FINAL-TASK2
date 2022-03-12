@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
 import getLandingCategories from "../API/getLandingCategories"
 
-function LandingCategories() {
+function LandingCategories() { 
     const categories = getLandingCategories()
 
     const categoriesList = categories.map((category, index) => {
 
-        return (
+        return ([sacinit]
             <div>
                 <div key={index}>
                 {/* <th scope={category.subtitle}></th> */}
