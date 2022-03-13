@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import ContactSection from "../Components/ContactSection"
 
 function Chat() {
     return (
@@ -14,6 +15,11 @@ function Chat() {
                                 <li className="breadcrumb-item active nav-link text-success" aria-current="page"><strong><small>C H A T</small></strong></li>
                             </ol>
                         </nav>
+                    </div>
+                </div>
+            <div className="row" style={{marginTop: "100px", marginBottom: "100px"}}>
+                    <div className="col">
+                        <ContactSection />
                     </div>
                 </div>
             </div>

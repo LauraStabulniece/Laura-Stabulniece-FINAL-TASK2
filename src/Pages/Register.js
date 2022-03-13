@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import RegisterField from "../Components/RegisterField"
 import RegisterFields from "../Components/RegisterFields"
 
 function Register() {
@@ -19,6 +20,9 @@ function Register() {
                 </div>
                 <div style={{ backgroundColor: "rgba(129, 235, 208, 0.39)" }}>
                     <RegisterFields />
+                </div>
+                <div style={{ backgroundColor: "rgba(129, 235, 208, 0.39)" }}>
+                    <RegisterField />
                 </div>
             </div>
         </div>

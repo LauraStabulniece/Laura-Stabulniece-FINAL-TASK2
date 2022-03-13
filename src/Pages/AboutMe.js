@@ -30,7 +30,7 @@ function AboutMe() {
                 </div>
                 <div className="col-6" style={{paddingLeft: "50px"}}>
                     <ContactsArticle />
-                <h4 style={{backgroundColor: "rgba(46, 13, 83, 0.747)", paddingTop: "18px", paddingBottom: "18px"}}>
+                <h4 style={{backgroundColor: "rgba(46, 13, 83, 0.747)", paddingTop: "18px", paddingBottom: "18px", paddingLeft: "390px"}}>
                     <SocialIcons />
                 </h4>
                 </div>
