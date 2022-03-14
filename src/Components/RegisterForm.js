@@ -2,6 +2,7 @@ import React from 'react'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as Yup from 'yup'
+import { Link } from 'react-router-dom'
 
 function RegisterForm() {
     const formSchema = Yup.object().shape({
@@ -139,7 +140,7 @@ function RegisterForm() {
                     <div className="row d-grid m-3">
                         <div className="col-3" style={{paddingLeft: "60px"}}>
                             <button type="submit" className="btn-lg btn-info mt-3" style={{ color: "white" }}>
-                                register
+                            <Link className="text-decoration-none" style={{ color: "white"}} to="/thanks"> register</Link>
                             </button>
                         </div>
                     </div>
