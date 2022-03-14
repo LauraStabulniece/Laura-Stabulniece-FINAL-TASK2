@@ -31,17 +31,17 @@ function RegisterForm() {
         return false
     }
     return (
-        <div container="true" style={{ marginBottom: "100px", padding: "50px" }}>
-            <h1 className="text-center" style={{ backgroundColor: "white", color: "green", marginLeft: "400px", marginRight: "400px" }}>R E G I S T E R</h1>
-            <div className="row" style={{ marginTop: "50px" }}>
-                <div className="col">
+        <div container="true" style={{ paddingTop:"100px" ,marginBottom: "100px"}}>
+            <h1 className="text-center" style={{ backgroundColor: "white", color: "green", marginLeft: "440px", marginRight: "440px" }}>R E G I S T E R</h1>
+            <div className="row" style={{ marginTop: "50px"}}>
+                <div className="col-8 mx-auto">
                     <img src="images/register.png" className="mx-auto d-block img-fluid rounded-circle" alt="" />
                 </div>
             </div>
-            <div className="form" style={{paddingLeft: "470px"}}>
+            <div className="form" style={{paddingLeft: "420px"}}>
                 <form onSubmit={handleSubmit(onFormSubmit)}>
                     <div className="row form-group m-3">
-                        <div className="col-6">
+                        <div className="col-9">
                             <input
                                 name="username"
                                 type="text"
@@ -53,7 +53,7 @@ function RegisterForm() {
                         </div>
                     </div>
                     <div className="row form-group m-3">
-                        <div className="col-6">
+                        <div className="col-9">
                             <input
                                 name="password"
                                 type="password"
@@ -65,7 +65,7 @@ function RegisterForm() {
                         </div>
                     </div>
                     <div className="row form-group m-3">
-                        <div className="col-6">
+                        <div className="col-9">
                             <input
                                 name="passwordConfirm"
                                 type="password"
@@ -80,7 +80,7 @@ function RegisterForm() {
                         </div>
                     </div>
                     <div className="row form-group m-3">
-                        <div className="col-6">
+                        <div className="col-9">
                             <input
                                 name="firstName"
                                 type="text"
@@ -92,7 +92,7 @@ function RegisterForm() {
                         </div>
                     </div>
                     <div className="row form-group m-3">
-                        <div className="col-6">
+                        <div className="col-9">
                             <input
                                 name="lastName"
                                 type="text"
@@ -103,7 +103,7 @@ function RegisterForm() {
                         </div>
                     </div>
                     <div className="row form-group m-3">
-                        <div className="col-6">
+                        <div className="col-9">
                             <select
                                 name="title"
                                 type="title"
@@ -120,7 +120,7 @@ function RegisterForm() {
                         </div>
                     </div>
                     <div className="row form-group m-2">
-                        <div className="col-6 m-2">
+                        <div className="col-9 m-2">
                             <div className="form-check">
                                 <input
                                     type="checkbox"
@@ -132,14 +132,14 @@ function RegisterForm() {
                                 />
                                 <div className="invalid-feedback">{errors.selectTc?.message}</div>
                                 <label htmlFor="selectTc" className="form-check-label small">
-                                    AGREE that EARTH without A R T is just “eh” *
+                                    AGREE that EARTH without A R T is just “eh”
                                 </label>
                             </div>
                         </div>
                     </div>
-                    <div className="row d-grid m-3">
-                        <div className="col-3" style={{paddingLeft: "60px"}}>
-                            <button type="submit" className="btn-lg btn-info mt-3" style={{ color: "white" }}>
+                    <div className="row m-1">
+                        <div className="col">
+                            <button type="submit" className="btn-lg btn-info" style={{ color: "white", marginLeft: "150px"}}>
                             <Link className="text-decoration-none" style={{ color: "white"}} to="/thanks"> register</Link>
                             </button>
                         </div>
