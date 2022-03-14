@@ -3,7 +3,7 @@ import GoogleMapReact from 'google-map-react'
 import LocationPin from './LocationPin'
 
 
-class MyClass extends Component {
+class MapClass extends Component {
   
   render() {
     return (
@@ -25,9 +25,9 @@ class MyClass extends Component {
     )
   }
 }
-MyClass.defaultProps = {
+MapClass.defaultProps = {
   center: { lat: 56.2850990, lng: 26.7210118 },
   zoom: 11
 }
 
-export default MyClass
+export default MapClass
