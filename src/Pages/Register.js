@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom"
-import RegisterField from "../Components/RegisterField"
-import RegisterFields from "../Components/RegisterFields"
+import React from 'react'
+import RegisterForm from "../Components/RegisterForm"
+
+
 
 function Register() {
     return (
@@ -18,11 +20,10 @@ function Register() {
                         </nav>
                     </div>
                 </div>
+               
+               
                 <div style={{ backgroundColor: "rgba(129, 235, 208, 0.39)" }}>
-                    <RegisterFields />
-                </div>
-                <div style={{ backgroundColor: "rgba(129, 235, 208, 0.39)" }}>
-                    <RegisterField />
+                    <RegisterForm />
                 </div>
             </div>
         </div>
