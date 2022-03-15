@@ -97,4 +97,5 @@ function CarouselTattoo() {
         </div >
     )
 }
+
 export default CarouselTattoo
