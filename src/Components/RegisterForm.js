@@ -103,7 +103,7 @@ function RegisterForm() {
                         </div>
                     </div>
                     <div className="row form-group m-3">
-                        <div className="col-2">
+                        <div className="col-3">
                             <select
                                 name="title"
                                 type="title"

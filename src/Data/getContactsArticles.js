@@ -6,7 +6,7 @@ function getContactsArticles() {
     return [
         {
             title: 'A d d r e s s',
-            description: 'earth',
+            description: 'EartH',
             icon: locationIcon,
         },
         {
