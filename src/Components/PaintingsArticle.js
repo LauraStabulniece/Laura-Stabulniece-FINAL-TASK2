@@ -39,5 +39,4 @@ function PaintingsArticle() {
     )
 }
 
-
 export default PaintingsArticle

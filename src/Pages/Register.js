@@ -2,8 +2,6 @@ import { Link } from "react-router-dom"
 import React from 'react'
 import RegisterForm from "../Components/RegisterForm"
 
-
-
 function Register() {
     return (
         <div>
@@ -20,8 +18,6 @@ function Register() {
                         </nav>
                     </div>
                 </div>
-               
-               
                 <div style={{ backgroundColor: "rgba(129, 235, 208, 0.39)" }}>
                     <RegisterForm />
                 </div>

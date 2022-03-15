@@ -38,4 +38,5 @@ function getPortfolioCategories() {
         },
     ]
 }
+
 export default getPortfolioCategories

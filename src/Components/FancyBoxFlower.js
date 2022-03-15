@@ -45,4 +45,5 @@ function FancyBoxFlower() {
         </div>
     )
 }
+
 export default FancyBoxFlower

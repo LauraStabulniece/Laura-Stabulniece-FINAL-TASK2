@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 import '../Components/Header.css'
 import SocialIcons from "./SocialIcons"
 
-
 function Header() {
   return (
     <div>
@@ -34,9 +33,9 @@ function Header() {
                 <li className="nav-item">
                   <Link className="nav-link text-white" style={{ fontSize: "20px" }} to="/portfolio/more%20MY%20Paintings">ᐟ p a i n t i n g s</Link>
                 </li>
-                  <li className="nav-item">
-                    <Link className="nav-link text-white" style={{ fontSize: "20px" }} to="/portfolio/more%20MY%20Paintings/paintings">ᐟ ᐟ m o r e ~ p a i n t i n g s</Link>
-                  </li>
+                <li className="nav-item">
+                  <Link className="nav-link text-white" style={{ fontSize: "20px" }} to="/portfolio/more%20MY%20Paintings/paintings">ᐟ ᐟ m o r e ~ p a i n t i n g s</Link>
+                </li>
                 <li className="nav-item">
                   <Link className="nav-link text-white text-decoration-underline" to="/chat">C h a t</Link>
                 </li>

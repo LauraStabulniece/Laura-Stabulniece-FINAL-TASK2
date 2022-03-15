@@ -67,4 +67,5 @@ function Painting() {
         </div>
     )
 }
+
 export default Painting

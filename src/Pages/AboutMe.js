@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import ContactsArticle from "../Components/ContactsArticle"
-import MapClass from "../Components/MapClass"
+import Map from "../Components/Map"
 import SocialIcons from "../Components/SocialIcons"
 import TabsArticles from "../Components/TabArticles"
 
@@ -24,15 +24,15 @@ function AboutMe() {
                     <TabsArticles />
                 </div>
             </div>
-            <div className="row" style={{marginTop: "100px", marginBottom: "100px"}}>
-                <div className="col-6" style={{position: "relative", marginBottom: "6px"}}>
-                  <MapClass />  
+            <div className="row" style={{ marginTop: "100px", marginBottom: "100px" }}>
+                <div className="col" style={{position: "relative", marginBottom: "6px" }}>
+                    <Map />
                 </div>
-                <div className="col-6" style={{paddingLeft: "50px"}}>
+                <div className="col" style={{ paddingLeft: "50px" }}>
                     <ContactsArticle />
-                <h4 style={{backgroundColor: "rgba(46, 13, 83, 0.747)", paddingTop: "18px", paddingBottom: "18px", paddingLeft: "390px"}}>
-                    <SocialIcons />
-                </h4>
+                    <h4 style={{ backgroundColor: "rgba(46, 13, 83, 0.747)", paddingTop: "18px", paddingBottom: "18px", paddingLeft: "390px" }}>
+                        <SocialIcons />
+                    </h4>
                 </div>
             </div>
         </div>

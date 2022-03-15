@@ -10,7 +10,6 @@ import Painting from "../Pages/Painting";
 import Paintings from "../Pages/Paintings";
 import Complete from "../Pages/Complete";
 
-
 function Content() {
     return (
         <div className="container">

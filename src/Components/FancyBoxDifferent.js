@@ -62,4 +62,5 @@ function FancyBoxDifferent() {
         </div>
     )
 }
+
 export default FancyBoxDifferent

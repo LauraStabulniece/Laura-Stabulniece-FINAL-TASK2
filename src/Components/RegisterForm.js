@@ -31,7 +31,7 @@ function RegisterForm() {
         return false
     }
     return (
-        <div container="true" style={{ paddingTop:"100px" ,marginBottom: "100px"}}>
+        <div container="true" style={{ paddingTop:"100px", paddingBottom: "50px", marginBottom: "100px"}}>
             <h1 className="text-center" style={{ backgroundColor: "white", color: "green", marginLeft: "440px", marginRight: "440px" }}>R E G I S T E R</h1>
             <div className="row" style={{ marginTop: "50px"}}>
                 <div className="col-8 mx-auto">
@@ -41,7 +41,7 @@ function RegisterForm() {
             <div className="form" style={{paddingLeft: "420px"}}>
                 <form onSubmit={handleSubmit(onFormSubmit)}>
                     <div className="row form-group m-3">
-                        <div className="col-9">
+                        <div className="col-6">
                             <input
                                 name="username"
                                 type="text"
@@ -53,7 +53,7 @@ function RegisterForm() {
                         </div>
                     </div>
                     <div className="row form-group m-3">
-                        <div className="col-9">
+                        <div className="col-6">
                             <input
                                 name="password"
                                 type="password"
@@ -65,7 +65,7 @@ function RegisterForm() {
                         </div>
                     </div>
                     <div className="row form-group m-3">
-                        <div className="col-9">
+                        <div className="col-6">
                             <input
                                 name="passwordConfirm"
                                 type="password"
@@ -80,7 +80,7 @@ function RegisterForm() {
                         </div>
                     </div>
                     <div className="row form-group m-3">
-                        <div className="col-9">
+                        <div className="col-6">
                             <input
                                 name="firstName"
                                 type="text"
@@ -92,7 +92,7 @@ function RegisterForm() {
                         </div>
                     </div>
                     <div className="row form-group m-3">
-                        <div className="col-9">
+                        <div className="col-6">
                             <input
                                 name="lastName"
                                 type="text"
@@ -103,14 +103,14 @@ function RegisterForm() {
                         </div>
                     </div>
                     <div className="row form-group m-3">
-                        <div className="col-9">
+                        <div className="col-2">
                             <select
                                 name="title"
                                 type="title"
                                 placeholder="country*"
                                 {...register('title')}
                                 className={`form-select ${errors.title ? 'is-invalid' : ''}`}>
-                                <option value="">*</option>
+                                <option value="">-</option>
                                 <option value="W">Wonderland</option>
                                 <option value="W">Dasmaland</option>
                                 <option value="D">Dreams</option>
@@ -120,7 +120,7 @@ function RegisterForm() {
                         </div>
                     </div>
                     <div className="row form-group m-2">
-                        <div className="col-9 m-2">
+                        <div className="col-6 m-2">
                             <div className="form-check">
                                 <input
                                     type="checkbox"

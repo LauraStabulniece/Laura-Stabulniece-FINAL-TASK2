@@ -28,9 +28,7 @@ function DrawingArticles() {
                 {imageElements}
             </div>
         </div>
-
     )
 }
-
 
 export default DrawingArticles

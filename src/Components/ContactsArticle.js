@@ -15,6 +15,7 @@ function ContactsArticle() {
           </div>
     )
   })
+  
   return (
     <div>
       {categoriesItems}

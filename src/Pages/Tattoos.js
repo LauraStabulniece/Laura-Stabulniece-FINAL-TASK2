@@ -20,7 +20,6 @@ function Tattoos() {
                         </nav>
                     </div>
                 </div>
-
                 <div className="row align-items-md-stretch m-1">
                     <div className="col-md-7">
                         <CarouselTattoo />
