@@ -137,9 +137,9 @@ function RegisterForm() {
                             </div>
                         </div>
                     </div>
-                    <div className="row m-1">
-                        <div className="col">
-                            <button type="submit" className="btn-lg btn-info" style={{ color: "white", marginLeft: "150px"}}>
+                    <div className="row">
+                        <div className="col-6 d-flex justify-content-center">
+                            <button type="submit" className="btn-lg btn-info" style={{ color: "white"}}>
                             <Link className="text-decoration-none" style={{ color: "white"}} to="/thanks"> register</Link>
                             </button>
                         </div>
