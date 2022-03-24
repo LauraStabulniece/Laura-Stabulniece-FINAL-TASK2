@@ -111,10 +111,10 @@ function RegisterForm() {
                                 {...register('title')}
                                 className={`form-select ${errors.title ? 'is-invalid' : ''}`}>
                                 <option value="">-</option>
-                                <option value="W">Wonderland</option>
-                                <option value="W">Dasmaland</option>
-                                <option value="D">Dreams</option>
-                                <option value="D">Disneyland</option>
+                                <option value="Wonderland">Wonderland</option>
+                                <option value="Dasmaland">Dasmaland</option>
+                                <option value="Dreams">Dreams</option>
+                                <option value="Disneyland">Disneyland</option>
                             </select>
                             <div className="invalid-feedback">{errors.title?.message}</div>
                         </div>
